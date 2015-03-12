@@ -57,6 +57,7 @@ public class TimelineActivity extends ActionBarActivity {
                 // Load model data into listview
                 //ArrayList<Tweet> tweets = Tweet.fromJSONArray(json);
                 _aTweets.addAll(Tweet.fromJSONArray(json));
+                Log.d("DEBUG", _aTweets.toString());
             }
 
             // FAILURE
